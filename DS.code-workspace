@@ -5,5 +5,5 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": { "notebook.output.textLineLimit": 500 }
 }
