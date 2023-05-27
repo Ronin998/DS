@@ -1,0 +1,6 @@
+This is the sample data 
+This is the First line 
+This is the Last line 
+This is the Third line 
+This is the Fourth line 
+This is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyderThis is written using spyder /nThis is written using spyder /n
