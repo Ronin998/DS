@@ -13,7 +13,8 @@ app = Flask(__name__)
 @app.route('/train_model')
 def train():
     # load data
-    data = pd.read_excel('/Users/saurabhpalande/Data Science/DS/Chemical_Industry/._Historical Alarm Cases.xlsx')
+    data = pd.read_excel('/Users/saurabhpalande/Data Science/DS/Chemical_Industry/._Historical Alarm Cases.xlsx',
+                         engine='openpyxl')
     # split columns
     x = data.iloc[:, 1:7]
     x.columns =['Ambient Temperature', 'Calibration', 'Unwanted substance deposition', 'Humidity','H2S Content', 'detected by']
@@ -55,5 +56,5 @@ def test():
 
 
 #  run the application on port
-app.run(port=5001)
+app.run(port=5001,debug=True)
 
